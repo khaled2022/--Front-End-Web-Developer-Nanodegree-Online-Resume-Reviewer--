@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Resume</title>
+
+  <!-- Meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Load The page Styles -->
+  <link rel="stylesheet"  href="css/style.css">
+  <link rel="stylesheet"  href="css/Media-Queries.css">
+
+  <!-- Load The Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+  <!-- Load Google Map -->
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBO3FObC_C2RpngGlyTymCNs2ngugBaAZI&callback=initMapDiv"></script>
+   
+</head>
+<body>
+
+<!-- -->
+  <div id="main">
+    <header class="center-content clear-fix">
+      <ul id="topContacts" class="flex-box"></ul>
+    </header>
+    <div class="clear-both"></div>
+    <div id="workExperience" class="gray">
+      <h2>work Experience</h2>
+    </div>
+    <div id="projects">
+      <h2>projects</h2>
+    </div>
+    <div id="education" class="gray">
+      <h2>Education</h2>
+    </div>
+    <div>
+      <h2>Where I've Lived and Worked</h2>
+    </div>
+    <div id="mapDiv" >
+    </div>
+    <div id="lets-connect" class="dark-gray">
+      <h2 class="dark center-text">Let's Content</h2>
+      <ul id="footerContacts" class="flex-box"></ul>
+    </div>
+  </div>
+
+  <!-- Load JQ And JS Files -->
+  <script src="js/jQuery.js"></script>
+  <script src="js/helper.js"></script>
+  <script src="js/resumeBuilder.js"></script>
+
+ <!-- JS Code >>> if conditional -->
+  <script type="text/javascript">
+      if ( document.getElementsByClassName('flex-item').length === 0){
+        document.getElementById('topContacts').style.display = 'none';
+      } 
+      if ( document.getElementsByClassName('work-entry').length === 0){
+        document.getElementById('workExperience').style.display = 'none';
+      }
+      if ( document.getElementsByClassName('project-entry').length === 0){
+        document.getElementById('projects').style.display = 'none';
+      }
+      if ( document.getElementsByClassName('education-entry').length === 0){
+        document.getElementById('education').style.display = 'none';
+      }
+      if ( document.getElementsByClassName('flex-item').length === 0){
+        document.getElementById('lets-connect').style.display = 'none';
+      }
+      if ( document.getElementById('map') === null){
+        document.getElementById('mapDiv').style.display = 'none';
+      }   
+  </script>
+</body>
+</html>
