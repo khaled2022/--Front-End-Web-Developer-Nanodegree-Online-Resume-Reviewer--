@@ -1,0 +1,189 @@
+/* Start CSS Dodes */
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* Header */
+header {
+	background-color: #1a1a1a;
+}
+.center-content {
+	padding: 2.5% 5%;
+}
+
+/* Clear */
+.clear {
+	clear: both;
+}
+.clear-fix {
+	overflow: auto;
+}
+
+/* UL Style */
+ul {
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+/* Flex */
+.flex-box {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	padding:10px; 
+}
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	padding: 10px;
+}
+/*
+Education-Entry 
+Work-Entry
+Project-Entry
+*/
+.education-entry,.work-entry,.project-entry {
+	padding: 0 5%;
+}
+
+/* h1,h2,h3 Style code */
+h2,h3 {
+	padding: 15px;
+	padding-left: 10%;
+	padding-right: 10%; 
+	line-height: 1.2em;
+	color:#66a3ff;
+	font-size: 2em;
+}
+h1 {
+	font-size: 3em;
+	color: #66a3ff;
+	display: inline;
+	line-height: 1.2em;
+}
+h2 {
+	font-weight: bold;
+	padding: 20px;
+}
+h3 {
+	font-style: italic;
+}
+
+/* The gray and Dark gray */
+.gray {
+	background-color: #f3f3f3;
+	padding-bottom: 10px;
+	clear: both;
+}
+.dark-gray {
+	background-color: #4a4a4a;
+}
+
+/* Date Text */
+.date-text {
+	font-style: italic;
+	font-size: 1em;
+	color: green;
+	line-height: 1.2em;
+	float:left;
+}
+
+/* Location Text*/
+.location-text {
+	font-style: italic;
+	font-size: 1.2em;
+	color: green;
+	line-height: 1.2em;
+	float: right;
+}
+
+/* The pragraph Style code */
+p{
+	font-size: 1.4em;
+	color: #1a1a1a;
+	line-height: 1.2em;
+}
+
+/* The links and links hover style code */
+a {
+	color: #1199c3;
+	text-decoration: none;
+	margin-top: 10px;
+	display: block;
+}
+a:hover {
+	color: red;
+	cursor: pointer;
+}
+
+/* Welcome Message */
+.welcome-message {
+	font-style: italic;
+	font-size: 1.2em;
+	color: #f3f3f3;
+	line-height: 1.2em;
+}
+
+/* Skills-h3 style*/
+#skills-h3 {
+	color: #66a3ff;
+	display: none;
+}
+
+/* Dark */
+.dark {
+	background-color: #1a1a1a;
+}
+.blue-text {
+	color: #66a3ff;
+}
+
+/* White-Text */
+.white-text {
+	font-weight: bold;
+	color: #fff;
+	line-height: 1.5em;
+}
+
+/* Biopic */
+.biopic {
+	float: left;
+	padding: 10px;
+	width: 200px;
+	display: none;
+}
+
+/* img and img hover Styles code*/
+img {
+	padding: 15px;
+	border-radius: 20px;
+}
+img:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+/*Span*/
+span {
+	color:#66a3ff;
+	padding: 5px;
+}
+
+/* Google Map */
+#mapDiv {
+	height: 350px;
+	width: 100%;
+	padding: 3%;
+
+}
+
+/* Lets Connect */
+#lets-connect {
+	text-align: center;
+}
+
+
